@@ -439,6 +439,7 @@ Notes:
 
 ```
 */1 * * * * cd /home/USERNAME/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
+*/2 * * * * cd /home/USERNAME/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
 */5 * * * * cd /home/USERNAME/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
 ```
 
